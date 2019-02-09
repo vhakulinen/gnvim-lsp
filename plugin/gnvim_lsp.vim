@@ -1,4 +1,4 @@
-if has("g:gnvim_lsp_loaded") || !has("g:gnvim")
+if has("g:gnvim_lsp_loaded") || !exists("g:gnvim")
     finish
 endif
 
